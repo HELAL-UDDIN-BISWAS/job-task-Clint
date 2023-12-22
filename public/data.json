@@ -1,0 +1,119 @@
+[
+  {
+      
+    "task_name": "Project Kickoff Meeting",
+    "description": "Schedule and conduct the project kickoff meeting with stakeholders.",
+    "due_date": "2023-02-15",
+    "priority": "High",
+    "assigned_to": "John Doe",
+    "status": "In Progress",
+    "image_url": "https://i.ibb.co/5KL2fJP/pexels-andrea-piacquadio-3756679.jpg"
+  },
+  {
+    
+    "task_name": "Client Presentation",
+    "description": "Prepare and deliver a presentation to the client showcasing project milestones.",
+    "due_date": "2023-03-01",
+    "priority": "Medium",
+    "assigned_to": "Jane Smith",
+    "status": "Pending",
+    "image_url": "https://i.ibb.co/Bwg23RR/pexels-cottonbro-studio-7437497.jpg"
+  },
+  {
+    
+    "task_name": "Code Review",
+    "description": "Conduct a thorough code review for the latest software release.",
+    "due_date": "2023-02-28",
+    "priority": "High",
+    "assigned_to": "Alex Johnson",
+    "status": "Completed",
+    "image_url": "https://i.ibb.co/xq37fxb/pexels-cottonbro-studio-7439137.jpg"
+  },
+  {
+    
+    "task_name": "Marketing Campaign",
+    "description": "Develop and launch a marketing campaign for the new product.",
+    "due_date": "2023-03-10",
+    "priority": "Medium",
+    "assigned_to": "Emily Davis",
+    "status": "New",
+    "image_url": "https://i.ibb.co/NxFDRMc/pexels-karolina-grabowska-4467739.jpg"
+  },
+  {
+    
+    "task_name": "Bug Fixing",
+    "description": "Address and fix reported bugs in the system.",
+    "due_date": "2023-02-20",
+    "priority": "High",
+    "assigned_to": "Chris Brown",
+    "status": "In Progress",
+    "image_url": "https://i.ibb.co/qFG5tnY/pexels-nataliya-vaitkevich-5412270.jpg"
+  },
+  {
+    
+    "task_name": "Team Training",
+    "description": "Organize a training session for team members on new technologies.",
+    "due_date": "2023-03-05",
+    "priority": "Low",
+    "assigned_to": "Sophia White",
+    "status": "Pending",
+    "image_url": "https://i.ibb.co/PWxdYmq/pexels-pixabay-416405.jpg"
+  },
+  {
+    
+    "task_name": "Budget Review",
+    "description": "Review and update the project budget based on current expenses.",
+    "due_date": "2023-02-25",
+    "priority": "Medium",
+    "assigned_to": "Michael Black",
+    "status": "Completed",
+    "image_url": "https://i.ibb.co/THnrYz0/pexels-fauxels-3184635.jpg"
+  },
+  {
+    
+    "task_name": "UI/UX Enhancements",
+    "description": "Implement user interface and user experience enhancements.",
+    "due_date": "2023-03-15",
+    "priority": "High",
+    "assigned_to": "Ella Green",
+    "status": "New",
+    "image_url": "https://i.ibb.co/K6NJwzz/pexels-canva-studio-3153198.jpg"
+  },
+  {
+    
+    "task_name": "Server Maintenance",
+    "description": "Perform routine maintenance on server infrastructure.",
+    "due_date": "2023-02-22",
+    "priority": "Low",
+    "assigned_to": "David Wilson",
+    "status": "In Progress",
+    "image_url": "https://i.ibb.co/xq37fxb/pexels-cottonbro-studio-7439137.jpg"
+  },
+  {
+    
+    "task_name": "Content Creation",
+    "description": "Create engaging content for the company blog and social media channels.",
+    "due_date": "2023-03-08",
+    "priority": "Medium",
+    "assigned_to": "Olivia Taylor",
+    "status": "Pending",
+    "image_url": "https://i.ibb.co/kJzQZ58/pexels-andrea-piacquadio-3772618.jpg"
+  },
+  {
+    
+    "task_name": "Security Audit",
+    "description": "Conduct a security audit to identify and address vulnerabilities.",
+    "due_date": "2023-02-18",
+    "priority": "High",
+    "assigned_to": "William Jones",
+    "status": "Completed",
+    "image_url": "https://i.ibb.co/Bwg23RR/pexels-cottonbro-studio-7437497.jpg"
+  }
+  ]
+  
+
+
+
+
+
+

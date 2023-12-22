@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 import { AuthContext } from '../../../Proveider/Proveider';
 
 const SignUp = () => {
-    const { createUser,ubdateUser } = useContext(AuthContext);
+    const { createUser,ubdateUser,googlesignup } = useContext(AuthContext);
     const { register, handleSubmit } = useForm()
     const onSubmit =async (data) => {
         const imageFile = new FormData();
@@ -43,7 +43,11 @@ const SignUp = () => {
             })
             .catch(error => console.error(error))
     }
-
+    const googlesubmit = () => {
+        googlesignup()
+        .then(res=>console.log(res))
+        .catch(error=>console.log(error))
+    };
     return (
         <div className=' w-full h-[80vh] flex justify-center items-center mx-auto '>
             <div className='bg-white px-14 rounded py-10 drop-shadow-md hover:drop-shadow-xl'>
@@ -80,7 +84,7 @@ const SignUp = () => {
                     </div>
                     <button className="py-3 bg-red-400 hover:bg-primary-600 text-white px-5 rounded my-2 w-full">SignUp</button>
                 </form>
-                {/* <Button className='my-2 w-full ' size="md" color="success"><FcGoogle className='text-2xl' /></Button> */}
+                <button onClick={googlesubmit} className="py-3 bg-red-400 hover:bg-primary-600 text-center text-2xl items-center px-5 rounded my-2 w-full"><FcGoogle></FcGoogle></button>
             </div>
         </div>
     );
