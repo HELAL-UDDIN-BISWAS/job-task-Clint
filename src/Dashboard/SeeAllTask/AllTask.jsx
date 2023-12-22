@@ -10,7 +10,7 @@ const AllTask = () => {
     const {data:datas=[]}=useQuery({
         queryKey:[],
         queryFn:async()=>{
-         const res=await axios.get('http://localhost:5000/jobtask')
+         const res=await axios.get('https://jobs-task-server.vercel.app/jobtask')
          return res.data
         }
         
@@ -19,7 +19,7 @@ const AllTask = () => {
     return (
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-3 mx-3 my-2'>
             {
-                datas.map(data=><div>
+                datas.map(data=><div key={data._id}>
                      <Card
           className="max-w-xs overflow-hidden rounded-md"
           imgSrc={data.image_url}
